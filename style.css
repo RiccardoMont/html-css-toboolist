@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --sfondoSezioni-white: #ffffff;
+    --sfondoBody-sweetwhite: #f6f8f9;
+    --Toboolist-black: #010101;
+    --titoliSezioni-lightblack: #444851;
+    --elementiLista-grey: #72757b;
+    --addList-heavenly: #47adf1;
+    --editorial-lighblue: #45abea;
+    --q1goals-violet: #9c72e4;
+    --recruiting-green: #64c0a9;
+    --mobile-orange: #f29e33;
+    --website-purple: #d863a1;
+    --Sales-lightgreen: #b0c926;
+    --check-greenblue: #a0dace;
+    --cross-red: #ed7873;
+}
