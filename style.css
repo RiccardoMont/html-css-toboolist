@@ -126,6 +126,9 @@ ul {
     list-style: none;
 } 
 
+li::before{
+    vertical-align: text-top;
+}
 li.check:before {
     
     content: "\2713";
