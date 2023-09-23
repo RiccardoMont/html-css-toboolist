@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*impostazioni box model*/
+
 :root{
     --sfondo_sezioni-white: #ffffff;
     --sfondo_body-sweetwhite: #f6f8f9;
@@ -11,6 +13,7 @@
     --titoli_sezioni-lightblack: #444851;
     --elementi_lista-grey: #72757b;
     --add_list-heavenly: #47adf1;
+    --add_section-lightgrey: #d0d5d8;
     --editorial-lighblue: #45abea;
     --q1goals-violet: #9c72e4;
     --recruiting-green: #64c0a9;
@@ -21,8 +24,18 @@
     --cross-red: #ed7873;
 }
 
-.logo_section{
+/*root*/
+
+body{
+    background-color: var(--mobile-orange);
+}
+
+/*body*/
+
+header{
     background-color: var(--sfondo_sezioni-white);
+    border: 1rem solid var(--sfondo_sezioni-white);
+    margin-bottom: 3rem;
 }
 
 
@@ -35,4 +48,52 @@
 
 .logo_img {
     vertical-align:bottom;
+}
+
+/*header*/
+
+main{
+    display: grid;
+    place-items: center;
+}
+
+button{
+    background-color: var(--sfondo_sezioni-white);
+    font-family: 'Roboto';
+    font-size: small;
+    font-weight: bold;
+    color: var(--add_section-lightgrey);
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    border-color: var(--add_section-lightgrey);
+    border-style: solid;
+
+}
+button:hover{
+    background-color: transparent;
+    
+}
+button:active{
+    opacity: 0.7;
+}
+button:focus{
+    background-color: var(--add_list-heavenly);
+    font-family: 'Roboto';
+    font-size: small;
+    font-weight: bold;
+    color: var(--sfondo_sezioni-white);
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    border-color: var(--add_list-heavenly);
+    border-style: solid;
+}
+/*bottoni*/
+
+
+.lists{
+    
+}
+
+h2{
+    color:var(--titoli_sezioni-lightblack);
 }
