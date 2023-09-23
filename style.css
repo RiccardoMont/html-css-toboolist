@@ -178,6 +178,7 @@ li.cross:before{
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     margin-left: 5px;
+    vertical-align: text-top;
 }
 
 #editorial{
