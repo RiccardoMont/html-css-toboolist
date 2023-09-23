@@ -27,7 +27,8 @@
 /*root*/
 
 body{
-    background-color: var(--mobile-orange);
+    background-color: rgb(118, 116, 116);
+    font-family: 'Roboto';
 }
 
 /*body*/
@@ -56,6 +57,8 @@ main{
     display: grid;
     place-items: center;
 }
+
+/*main*/
 
 button{
     background-color: var(--sfondo_sezioni-white);
@@ -89,11 +92,42 @@ button:focus{
 }
 /*bottoni*/
 
-
-.lists{
-    
-}
-
 h2{
     color:var(--titoli_sezioni-lightblack);
 }
+
+/*Titoli delle sezioni*/
+
+ul { 
+    list-style: none; 
+} 
+
+li.check:before {
+    
+    content: "\2713";
+    display: inline-block;
+    font-size: 10px;
+    width: 1rem;
+    height: 1rem;
+    color: var(--recruiting-green);
+    border: 0.05rem solid var(--recruiting-green);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+li.cross:before{
+    content: "\2717";
+    display: inline-block;
+    font-size: 10px;
+    width: 1rem;
+    height: 1rem;
+    color: var(--cross-red);
+    border: 0.05rem solid var(--cross-red);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/*Checkbox e crossbox della lista*/
+
