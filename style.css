@@ -9,7 +9,7 @@
 :root{
     --sfondo_sezioni-white: #ffffff;
     --sfondo_body-sweetwhite: #f6f8f9;
-    --Toboolist-black: #010101;
+    --toboolist-black: #010101;
     --titoli_sezioni-lightblack: #444851;
     --elementi_lista-grey: #72757b;
     --add_list-heavenly: #47adf1;
@@ -19,7 +19,7 @@
     --recruiting-green: #64c0a9;
     --mobile-orange: #f29e33;
     --website-purple: #d863a1;
-    --Sales-lightgreen: #b0c926;
+    --sales-lightgreen: #b0c926;
     --check-greenblue: #a0dace;
     --cross-red: #ed7873;
 }
@@ -44,7 +44,7 @@ header{
     font-size: 2.5rem;
     font-weight: 700;
     font-family: 'Roboto';
-    color: var(--Toboolist-black);
+    color: var(--toboolist-black);
 }
 
 .logo_img {
@@ -131,3 +131,50 @@ li.cross:before{
 
 /*Checkbox e crossbox della lista*/
 
+.compiti{
+    display: inline-block;
+}
+
+.attributo{
+    display: inline-block;
+    font-size: 8px;
+    color: var(--sfondo_sezioni-white);
+    padding:0.2rem 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-left: 5px;
+}
+
+#editorial{
+    background-color: var(--editorial-lighblue);
+    border: 1px solid var(--editorial-lighblue);
+}
+
+#q1_goals{
+    background-color: var(--q1goals-violet);
+    border: 1px solid var(--q1goals-violet);
+}
+
+#recruiting{
+    background-color: var(--recruiting-green);
+    border: 1px solid var(--recruiting-green);
+}
+
+#mobile{
+    background-color: var(--mobile-orange);
+    border: 1px solid var(--mobile-orange);
+}
+
+#website{
+    background-color: var(--website-purple);
+    border: 1px solid var(--website-purple);
+}
+
+#sales{
+    background-color: var(--sales-lightgreen);
+    border: 1px solid var(--ales-lightgreen);
+}
+
+/*Etichette colorate*/
