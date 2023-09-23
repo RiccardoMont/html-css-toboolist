@@ -172,11 +172,11 @@ li.cross:before{
     display: inline-block;
     font-size: 0.6rem;
     color: var(--sfondo_sezioni-white);
-    padding:0.2rem 0.5rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    padding:0.4rem 0.7rem;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
     margin-left: 5px;
     vertical-align: text-top;
 }
