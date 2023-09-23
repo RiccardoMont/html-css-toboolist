@@ -5,12 +5,12 @@
 }
 
 :root{
-    --sfondoSezioni-white: #ffffff;
-    --sfondoBody-sweetwhite: #f6f8f9;
+    --sfondo_sezioni-white: #ffffff;
+    --sfondo_body-sweetwhite: #f6f8f9;
     --Toboolist-black: #010101;
-    --titoliSezioni-lightblack: #444851;
-    --elementiLista-grey: #72757b;
-    --addList-heavenly: #47adf1;
+    --titoli_sezioni-lightblack: #444851;
+    --elementi_lista-grey: #72757b;
+    --add_list-heavenly: #47adf1;
     --editorial-lighblue: #45abea;
     --q1goals-violet: #9c72e4;
     --recruiting-green: #64c0a9;
@@ -19,4 +19,20 @@
     --Sales-lightgreen: #b0c926;
     --check-greenblue: #a0dace;
     --cross-red: #ed7873;
+}
+
+.logo_section{
+    background-color: var(--sfondo_sezioni-white);
+}
+
+
+.logo_text {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: var(--Toboolist-black);
+}
+
+.logo_img {
+    vertical-align:bottom;
 }
