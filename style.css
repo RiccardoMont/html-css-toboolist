@@ -20,7 +20,7 @@
     --mobile-orange: #f29e33;
     --website-purple: #d863a1;
     --sales-lightgreen: #b0c926;
-    --check-greenblue: #a0dace;
+    --check-greenblue: #44af9a;
     --cross-red: #ed7873;
 }
 
@@ -65,8 +65,8 @@ main{
     padding-left: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .lists{
@@ -74,8 +74,8 @@ main{
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 /*main*/
@@ -118,12 +118,14 @@ button:focus{
 
 h2{
     color:var(--titoli_sezioni-lightblack);
+    line-height: 2;
+    font-size: 1.8rem;
 }
 
 /*Titoli delle sezioni*/
 
 ul { 
-    list-style: none; 
+    list-style: none;
 } 
 
 li.check:before {
@@ -133,8 +135,8 @@ li.check:before {
     font-size: 10px;
     width: 1rem;
     height: 1rem;
-    color: var(--recruiting-green);
-    border: 0.05rem solid var(--recruiting-green);
+    color: var(--check-greenblue);
+    border: 0.05rem solid var(--check-greenblue);
     border-radius: 50%;
     text-align: center;
     margin-right: 10px;
@@ -157,11 +159,15 @@ li.cross:before{
 
 .compiti{
     display: inline-block;
+    line-height: 2;
+    color: var(--elementi_lista-grey);
+    font-weight: 500;
+    font-size: 1.3rem;
 }
 
 .attributo{
     display: inline-block;
-    font-size: 8px;
+    font-size: 0.6rem;
     color: var(--sfondo_sezioni-white);
     padding:0.2rem 0.5rem;
     border-top-left-radius: 1rem;
